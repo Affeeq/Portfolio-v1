@@ -1,0 +1,24 @@
+{
+  "name": "portfolio_v1",
+  "version": "1.0.0",
+  "description": "Personal Web Portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Affeeq/Portfolio-v1.git"
+  },
+  "author": "Affeeq Ismail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Affeeq/Portfolio-v1/issues"
+  },
+  "homepage": "https://github.com/Affeeq/Portfolio-v1#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}
