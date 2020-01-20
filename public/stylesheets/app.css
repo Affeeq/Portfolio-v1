@@ -1,5 +1,7 @@
-
-
 nav .container .row {
 	flex-grow: 1;
+}
+
+.embed-responsive .card-img-top {
+    object-fit: cover;
 }
