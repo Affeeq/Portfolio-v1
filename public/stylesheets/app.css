@@ -12,13 +12,22 @@ nav .container .row {
 }
 
 #img-container {
-	height: 200px;
-	width: 200px;
+	height: 220px;
+	width: 220px;
 	border-radius: 50%;
+	border: 7px double #e9ecef;
 	object-fit: cover;
 }
 
 #jqueryFontSize {
 	width: 48px;
 	height: auto;
+}
+
+.jumbotron {
+	background: black;
+}
+
+#projects {
+	width: 75%;
 }

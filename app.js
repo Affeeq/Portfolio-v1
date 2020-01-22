@@ -10,9 +10,17 @@ app.get("/",function(req,res) {
 	res.render("landing");
 });
 
-app.get("/profile", function(req,res) {
-	res.render("profile");
-})
+app.get("/about", function(req,res) {
+	res.render("about");
+});
+
+app.get("/project", function(req,res) {
+	res.render("project");
+});
+
+app.get("/contact", function(req,res) {
+	res.render("contact");
+});
 
 app.listen(process.env.PORT || 3000, function() {
 	console.log("Connected to server");
