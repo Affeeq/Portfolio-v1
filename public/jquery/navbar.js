@@ -1,12 +1,13 @@
+// Slide navbar up/down when scroll up/down
 $(function () {
 	var lastScroll = 0;
 	$(document).scroll(function(){
 		var navbarHeight = $(".navbar").innerHeight();
 		var currentScroll = $(window).scrollTop();
 		if(currentScroll > navbarHeight && currentScroll > lastScroll) {
-			$(".navbar").addClass("navbarHideDisplay").removeClass("navbarTransition");
+			$(".navbar").addClass("navbarHideDisplay").removeClass("navbarShowDisplay");
 			lastScroll = currentScroll;
-		} else if(currentScroll > navbarHeight && currentScroll < lastScroll) {
+		} else {
 			$(".navbar").addClass("navbarShowDisplay").removeClass("navbarHideDisplay");
 			lastScroll = currentScroll;
 		}
