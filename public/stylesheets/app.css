@@ -31,3 +31,12 @@ nav .container .row {
 #projects {
 	width: 75%;
 }
+
+.navbarHideDisplay {
+	margin-top: -70px;
+	transition: margin 1s;
+} 
+
+.navbarShowDisplay {
+	transition: margin 1s;
+}
