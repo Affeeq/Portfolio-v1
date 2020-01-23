@@ -65,4 +65,5 @@ nav .container .row {
 
 #ulFooter {
 	list-style-type: none;
+	padding-left: 0;
 }
