@@ -67,3 +67,7 @@ nav .container .row {
 	list-style-type: none;
 	padding-left: 0;
 }
+
+.header-icons {
+	font-size: 7vw;
+}
