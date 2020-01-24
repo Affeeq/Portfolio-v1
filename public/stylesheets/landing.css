@@ -1,0 +1,15 @@
+body { 
+  background: url(https://www.rei.com/blog/wp-content/uploads/2015/04/James-Harnois-JTree.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* setting the position of the landing-header */
+#landing {
+  z-index: 1; /* the third dimension, 0 is further from the screen and 1 is on the screen */
+  position: relative;
+  text-align: center;
+  padding-top: 40vh;
+}
