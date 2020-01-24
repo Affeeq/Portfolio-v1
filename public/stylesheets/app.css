@@ -71,3 +71,16 @@ nav .container .row {
 .header-icons {
 	font-size: 7vw;
 }
+
+#ulFooter hr {
+	border-top: 3px solid red;
+}
+
+#footer-icon-container li {
+	display: inline;
+}
+
+#footer-icon-container li:hover {
+  background: rgba(0,0,0,0.5);
+  text-decoration: none;
+}
