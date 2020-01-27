@@ -1,15 +1,24 @@
-body { 
-  background: url(https://www.rei.com/blog/wp-content/uploads/2015/04/James-Harnois-JTree.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+html, body { 
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.img-container {
+	background-image: url("https://www.rei.com/blog/wp-content/uploads/2015/04/James-Harnois-JTree.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100%;
+	filter: blur(5px);
 }
 
 /* setting the position of the landing-header */
 #landing {
-  z-index: 1; /* the third dimension, 0 is further from the screen and 1 is on the screen */
-  position: relative;
-  text-align: center;
-  padding-top: 40vh;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
 }
