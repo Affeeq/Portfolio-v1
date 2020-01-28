@@ -47,6 +47,16 @@ nav .container .row {
 
 #projects {
 	width: 75%;
+	overflow: hidden;
+}
+
+#projects img {
+	transition: all 0.5s ease;
+}
+
+#projects:hover img {
+	transform: scale(1.1);
+	filter: blur(2px);
 }
 
 .navbarHideDisplay {
