@@ -1,10 +1,12 @@
 html, body {
 	height: 100%;
+	overflow-x: hidden;
 }
 
 body {
 	padding-top: 70px;
-	background-color: #fcfcfc;
+	background-color: #ffffff;
+	color: #003366;
 }
 
 .container-fluid {
@@ -14,6 +16,10 @@ body {
 
 #main {
 	overflow: auto;
+}
+
+.jumbotron, footer {
+	background-color: #cccccc;
 }
 
 nav .container .row {
@@ -34,7 +40,7 @@ nav .container .row {
 }
 
 .section {
-	background-color: #fcfcfc;
+	
 }
 
 #projects {
