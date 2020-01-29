@@ -5,17 +5,16 @@ $(function () {
 		var navbarHeight = $(".navbar").innerHeight();
 		var currentScroll = $(window).scrollTop();
 		if(currentScroll > navbarHeight && currentScroll > lastScroll) {
-			$(".navbar").addClass("navbarHideDisplay").removeClass("navbarShowDisplay");
+			$(".navbar").addClass("navbarHideDisplay").removeClass("navbarShowDisplay").removeClass("navbarTransparent");
 			lastScroll = currentScroll;
 		} else {
-			$(".navbar").addClass("navbarShowDisplay").removeClass("navbarHideDisplay");
+			$(".navbar").addClass("navbarShowDisplay").addClass("navbarShowDisplayColor").removeClass("navbarHideDisplay");
 			lastScroll = currentScroll;
+			if(currentScroll < navbarHeight) {
+				$(".navbar").addClass("navbarTransparent").removeClass("navbarShowDisplay").removeClass("navbarShowDisplayColor");
+				console.log(currentScroll)
+				console.log(navbarHeight)
+			}
 		}
 	});
-})
-
-
-$(".nav-link").click(function() {
-	$(this).addClass("active");
-	$(".nav-link").not(this).removeClass("active");
 })

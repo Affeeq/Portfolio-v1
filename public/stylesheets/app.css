@@ -1,10 +1,9 @@
-html, body {
-	height: 100%;
+html {
 	overflow-x: hidden;
 }
 
 body {
-	padding-top: 70px;
+	height: 100%;
 	background-color: #ffffff;
 	color: #003366;
 }
@@ -34,13 +33,13 @@ nav .container .row {
 	object-fit: cover;
 }
 
-#jqueryFontSize {
-	width: 48px;
-	height: auto;
+#focus .card {
+	height: 160px;
 }
 
-.section {
-	
+#jqueryFontSize {
+	width: 32px;
+	height: auto;
 }
 
 #projects {
@@ -68,6 +67,16 @@ nav .container .row {
 	transition: margin 1s;
 }
 
+.navbarShowDisplayColor {
+	background-color: #ffffff;
+	transition: background 1s;
+}
+
+.navbarTransparent {
+	background-color: #cccccc;
+	transition: background 1s;
+}
+
 .form-group .btn {
 	width: 28%;
 	margin: 25px auto;
@@ -84,6 +93,11 @@ nav .container .row {
 
 #ulFooter hr {
 	border-top: 3px solid black;
+}
+
+#header-icon a i:hover {
+	background: rgba(0,0,0,0.5);
+  	text-decoration: none;
 }
 
 #footer-icon-container li {
