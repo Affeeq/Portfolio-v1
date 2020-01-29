@@ -1,18 +1,15 @@
-/*For the footer styling*/
 html, body {
 	height: 100%;
 }
+
 body {
 	padding-top: 70px;
-	background-color: #ebebeb;
-	color: #9f9f9e;
-	font-weight: 200;
-	font-style: normal;
-	font-size: 16px;
+	background-color: #fcfcfc;
 }
 
-.container {
+.container-fluid {
 	min-height: 100%; /*make sure the footer stays at the bottom*/
+	padding: 0;
 }
 
 #main {
@@ -22,10 +19,6 @@ body {
 nav .container .row {
 	flex-grow: 1;
 }
-
-/*.jumbotron {
-	background: #bdb76b;
-}*/
 
 #img-container {
 	height: 220px;
@@ -40,8 +33,8 @@ nav .container .row {
 	height: auto;
 }
 
-.section, .section .card-title, .section .card-body {
-	background-color: #fafafa;
+.section {
+	background-color: #fcfcfc;
 }
 
 #projects {
