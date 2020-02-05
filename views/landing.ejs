@@ -1,25 +1,247 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<!-- To fit in all types of devices -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-	<!-- Bootstrap 4 -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-	<!-- Stylesheet -->
-	<link rel="stylesheet" href="/stylesheets/landing.css">
-
-	<title>Affeeq Ismail</title>
-</head>
-<body>
-	<div class="img-container"></div>
-	<div id="landing" class="text-center">
-		<h5>Affeeq Ismail</h5>
+<%- include('./partials/header') -%>
+<header>
+	<div id="landing-img-container"></div>
+	<div id="landing-text" class="text-center">
+		<h1>Hello, I'm Affeeq</h1>
 		<p>Self-Taught Web Developer</p>
-		<a href="/about" class="btn btn-lg btn-success">Welcome!</a>
-    </div>
+	</div>
+	<div id="landing-link-down">
+		<a href="#intro"><i class="fas fa-chevron-down fa-2x"></i></a>
+	</div>
+</header>
+<div id="main" class="container-fluid h-100">
+	<section id="intro" class="row justify-content-center align-items-center jumbotron min-vh-100">
+		<div class="col-12">
+			<div class="text-center border-0">
+				<div class="mx-auto d-block mb-2">
+					<img id="img-container" class="img-fluid" src="https://www.rei.com/blog/wp-content/uploads/2015/04/James-Harnois-JTree.jpg" alt="Card image cap">
+				</div>
+				<h5 class="mt-2">Affeeq Ismail</h5>
+				<p class="mt-2">Self-Taught Web Developer</p>
+				<div class="row">
+					<div class="col-1 col-lg-2"></div>
+					<div class="col-10 col-lg-8">
+						<div class="text-center mt-4 mt-lg-0 ml-1 mr-1 text-lg-justify">
+							<h2>About me.</h2>
+							<p>I am a self-taught programmer. I started programming in junior year of college. I started doing programming seriously in September 2019 and have loved it ever since. I am currently learning to be a web developer and I am interested in learning more of it.</p>
+							<h5>Education: </h5>
+							<p>B.S. in Mechanical Engineering</p>
+							<h5>Experience: </h5>
+							<p>I started coding on freeCodeCamp and finished the Responsive Web Design Course. I had also finished the Web Developer Bootcamp Course by Colt Steele on Udemy.</p>
+						</div>
+					</div>
+					<div class="col-1 col-lg-2"></div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-</body>
-</html>
+	<section id="focus" class="row text-center mb-5 border-0 ml-1 mr-1 min-vh-100">
+		<div class="col-1 col-md-2"></div>
+		<div class="col-10 col-md-8">
+			<h3 class="mb-2">Focus</h3>
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<div class="border-0 mt-2 mb-2 pt-2">
+						<div class="focus-icons-container mx-auto d-block">
+							<i class="fas fa-code mb-3 focus-icons"></i>
+						</div>
+						<p class="focus-p">Write clean and meaningful codeWrite clean and meaningful codeWrite clean and meaningful codeWrite clean and meaningful codeWrite clean and meaningful codeWrite clean and meaningful</p>
+					</div>
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="border-0 mt-2 mb-2 pt-2">
+						<div class="focus-icons-container mx-auto d-block">
+							<i class="fas fa-columns mb-3 focus-icons"></i>
+						</div>
+						<p class="focus-p">Create clean and responsive websitesCreate clean and responsive websitesCreate clean and responsive websitesCreate clean and responsive websitesCreate </p>
+					</div>
+				</div>
+			</div>
+			<div class=row>
+				<div class="col-12 col-md-6">
+					<div class="border-0 mt-2 mb-2 pt-2">
+						<div class="focus-icons-container mx-auto d-block">
+							<i class="fas fa-users mb-3 focus-icons"></i>
+						</div>
+						<p class="focus-p">Be an integral part of a teamBe an integral part of a teamBe an integral part of a teamBe an integral part of a teamBe an integral part of a teamBe an integral part of a teamBe an integral part of a teamBe an </p>
+					</div>
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="card border-0 mt-2 mb-2 pt-2">
+						<div class="focus-icons-container mx-auto d-block">
+							<i class="fas fa-comments mb-3 focus-icons"></i>
+						</div>
+						<p class="focus-p">Prioritize clear communicationPrioritize clear communicationPrioritize clear communicationPrioritize clear communicationPrioritize clear communicationPrioritize clear communicationPrioritize</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-1 col-md-2"></div>
+	</section>
+
+	<section id="experience" class="row text-center align-items-center min-vh-100">
+		<div class="col-0 col-md-2"></div>
+		<div class="col-12 col-md-8">
+			<h1 class="mb-5">Experience</h1>
+			<h4 class="mb-5">Some technologies that I had used:</h4>
+			<div class="row">
+				<div class="col-12 col-lg-8">
+					<div class="row justify-content-center justify-content-lg-start mb-5 mr-1 ml-1">
+						<div class="col-4 mb-3">
+							<div id="html" class="experience-icons-container mx-auto">
+								<i class="fab fa-html5 experience-icons"></i>
+								<h5 class="experience-text">HTML5</h5>
+							</div>
+						</div>
+						<div class="col-4 mb-3">
+							<div id="css" class="experience-icons-container mx-auto">
+								<i class="fab fa-css3-alt experience-icons"></i>
+								<h5 class="experience-text">CSS3</h5>
+							</div>
+						</div>
+						<div class="col-4 mb-3">
+							<div id="js" class="experience-icons-container mx-auto">
+								<i class="fab fa-js experience-icons"></i>
+								<h5 class="experience-text">Javascript</h5>
+							</div>
+						</div>
+						<div class="col-4 mb-3">
+							<div id="bootstrap" class="experience-icons-container mx-auto">
+								<i class="fab fa-bootstrap experience-icons"></i>
+								<h5 class="experience-text">Bootstrap</h5>
+							</div>
+						</div>
+						<div class="col-4 mb-3">
+							<div id="node" class="experience-icons-container mx-auto">
+								<i class="fab fa-node experience-icons"></i>
+								<h5 class="experience-text">Node JS</h5>
+							</div>
+						</div>
+						<div class="col-4 mb-3">
+							<div id="mongo" class="experience-icons-container mx-auto">
+								<i class="fab fa-envira experience-icons"></i>
+								<h5 class="experience-text">MongoDB</h5>
+							</div>
+						</div>
+						<div class="col-4 mb-3">
+							<div id="jquery" class="experience-icons-container mx-auto">
+								<img id="jqueryFontSize" class="mx-auto d-block" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/jquery.svg" />
+								<h5 class="experience-text">Jquery</h5>
+							</div>
+						</div>	
+					</div>
+				</div>
+				<div class="col-12 col-lg-4">
+					<div class="row text-center">
+						<div class="col-12 mb-5">
+							<div class="d-flex justify-content-center align-items-center">
+								<i class="fas fa-tools fa-2x icons-outline mr-3"></i>
+								<h4 class="extra-experience">Tools</h4>
+							</div>
+							<ul class="ulExperience">
+								<li class="experience-list">Git</li>
+								<li class="experience-list">Command Line</li>
+								<li class="experience-list">Chrome DevTools</li>
+								<li class="experience-list">Heroku</li>
+							</ul>
+						</div>
+						<div class="col-12">
+							<div class="d-flex justify-content-center align-items-center">
+								<i class="fas fa-brain fa-2x icons-outline mr-3"></i>
+								<h4 class="extra-experience">Knowledge</h4>
+							</div>
+							<ul class="ulExperience">
+								<li class="experience-list">Responsive Design</li>
+								<li class="experience-list">ECMAScript 2016</li>
+								<li class="experience-list">RESTful Routing</li>
+								<li class="experience-list">CRUD</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-0 col-md-2"></div>
+	</section>
+
+	<section id="project" class="row min-vh-100">
+		<div class="col-0 col-md-1"></div>
+		<div class="col-12 col-md-10">
+			<div class="row justify-content-center">
+				<div class="col-12">
+					<div class="text-center mb-2 border-0">
+						<div class="header-icons-container mx-auto d-block">
+							<i class="fas fa-pencil-alt header-icons mb-2"></i>
+						</div>
+						<h2 class="text-center mt-3 mb-3">Projects.</h2>
+						<p class="card-text">Here are the lists of projects that I had done</p>
+					</div>
+				</div>
+			</div>
+			<div class="card text-center mb-2 border-0">
+				<div class="card-img-top projects mx-auto d-block mt-3">
+					<img class="img-fluid" src="https://www.rei.com/blog/wp-content/uploads/2015/04/James-Harnois-JTree.jpg" alt="Card image cap">
+				</div>
+				<div class="card-body">
+					<h3 class="card-title">Affeeq Ismail</h3>
+					<p class="card-text">Self-Taught Web Developer</p>
+				</div>
+			</div>
+			<div class="card text-center mb-2 border-0">
+				<div class="card-img-top projects mx-auto d-block mt-3">
+					<img class="img-fluid" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.travelandleisure.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F1600x1000%2Fpublic%2F1516125062%2Fgrand-teton-national-park-wyoming-SCENICCAMP0118.jpg%3Fitok%3Dakrvix61&q=85" alt="Card image cap">
+				</div>
+				<div class="card-body">
+					<h3 class="card-title">Affeeq Ismail</h3>
+					<p class="card-text">Self-Taught Web Developer</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-0 col-md-1"></div>
+	</section>
+
+	<section id="contact" class="row min-vh-100 justify-content-center align-items-center">
+		<div class="col-0 col-md-2"></div>
+		<div class="col-12 col-md-8">
+			<form action="" method="" autocomplete="off">
+				<div class="form-row ml-3 ml-lg mr-3 mr-lg">
+					<div class="col-1 col-sm-2"></div>
+					<div class="col-10 col-sm-8">
+						<div class="text-center mb-5 border-0">
+							<h1 class="text-center mt-3 mb-3">Contact me.</h1>
+							<h5>Interested in working together? Or do you want to just say hi?</h5>
+							<h5>Feel free to reach out to me!</h5>
+						</div>
+						<div class="form-group">
+							<input class="form-control" type="text" name="name" required>
+							<label for="name">Name</label>
+						</div>
+						<div class="form-group">
+							<input class="form-control" type="email" name="email" required>
+							<label for="email">Email</label>
+						</div>
+						<div class="form-group">
+							<input class="form-control" type="text" name="subject" required>
+							<label for="subject">Subject</label>
+						</div>
+						<div id="form-textarea" class="form-group">
+							<textarea class="form-control" name="message" rows="2" required></textarea>
+							<label for="message">Messsage</label>
+						</div>
+						<div class="form-group align-self-center">
+							<button class="btn btn-md btn-primary btn-block">Submit!</button>
+						</div>
+					</div>
+					<div class="col-1 col-sm-2"></div>
+				</div>
+			</form>
+		</div>
+		<div class="col-0 col-md-2"></div>
+	</section>
+	<section class="contact-bg"></section>
+
+</div>
+
+
+<%- include('./partials/footer') -%>
