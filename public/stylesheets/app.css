@@ -12,7 +12,7 @@ body {
 	padding: 0;
 }
 
-#intro, #focus, #project, #experience {
+#intro, #focus, #project, #experience, #resume {
 	padding-top: 60px;
 	padding-bottom: 60px;
 	margin-right: 0;
@@ -490,6 +490,17 @@ nav .container .row {
 	background-color: #16a0e2;
 	border: 1px solid #16a0e2;
 	color: #ffffff;
+}
+
+#resume {
+	background-color: red;
+}
+
+#resume button {
+	padding: 10px 20px;
+	font-size: 20px;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
 }
 
 footer {
