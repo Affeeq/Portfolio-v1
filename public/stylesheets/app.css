@@ -39,6 +39,37 @@ hr {
 	border-top: 1px solid #16a0e2;
 }
 
+.bounceIn,
+.bounceInLeft,
+.bounceInRight,
+.bounceInDown,
+.fadeIn,
+.fadeInUp,
+.fadeInUpDelay,
+.fadeInDown,
+.fadeInLeft,
+.fadeInRight,
+.slideInUp,
+.slideInDown,
+.slideInLeft,
+.slideInRight,
+.zoomIn,
+.swing,
+.pulse,
+.bounce,
+.progress1-delay,
+.progress2-delay,
+.progress3-delay,
+.progress4-delay,
+.progress5-delay {
+    visibility: visible;
+}
+
+.delay-05s {
+  	animation-delay: 0.5s;
+  	-webkit-animation-delay: 0.5s;
+}
+
 nav .container .row {
 	flex-grow: 1;
 }
