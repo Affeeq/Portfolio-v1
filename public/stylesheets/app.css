@@ -39,6 +39,27 @@ hr {
 	border-top: 1px solid #16a0e2;
 }
 
+/*Animate on Scroll Points*/
+
+.header-title,
+.header-subtitle,
+.scroll-intro-img,
+.scroll-intro-content-1,
+.scroll-intro-content-2,
+.scroll-intro-content-3,
+.scroll-focus-content-1,
+.scroll-focus-content-2,
+.scroll-focus-content-3,
+.scroll-focus-content-4,
+.scroll-experience-content-1,
+.scroll-experience-content-2,
+.scroll-experience-content-3,
+.scroll-projects {
+	visibility: hidden;
+}
+
+/*Animation on Scroll*/
+
 .bounceIn,
 .bounceInLeft,
 .bounceInRight,
@@ -63,11 +84,6 @@ hr {
 .progress4-delay,
 .progress5-delay {
     visibility: visible;
-}
-
-.delay-05s {
-  	animation-delay: 0.5s;
-  	-webkit-animation-delay: 0.5s;
 }
 
 nav .container .row {
@@ -193,7 +209,6 @@ nav .container .row {
 	height: 220px;
 	width: 220px;
 	border-radius: 50%;
-	/*border: 7px double #e9ecef;*/
 	object-fit: cover;
 }
 
