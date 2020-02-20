@@ -29,6 +29,14 @@ $(function () {
 	});
 })
 
+// Flash message disappear after 5 seconds
+$(document).ready(function() {
+	setTimeout(function() {
+		$('#contactMessage').css("margin-top","60px");
+		$('#contactMessage').fadeOut('fast');
+	}, 5000); // <-- time in milliseconds
+});
+
 // animate scrolling when links are clicked
 $("#intro-link, #landing-link-down").click(function() {
     $('html, body').animate({

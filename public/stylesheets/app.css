@@ -156,6 +156,14 @@ nav .container .row {
 	filter: contrast(60%);
 }
 
+#contactMessage {
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+}
+
 #landing-text {
 	position: absolute;
 	top: 50%;
