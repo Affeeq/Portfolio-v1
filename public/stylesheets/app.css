@@ -209,9 +209,9 @@ nav .container .row {
 	overflow: auto;
 }
 
-#intro, #experience {
+/*#intro, #experience {
 	background-color: #ceced8;
-}
+}*/
 
 #img-container {
 	height: 220px;
@@ -249,6 +249,7 @@ nav .container .row {
 .experience-icons-container {
 	height: 120px;
 	width: 120px;
+	border: solid 1px #ceced8;
 	border-radius: 50%;
 	background-color: #ffffff;
 	align-items: center;
@@ -550,14 +551,30 @@ nav .container .row {
 }
 
 #resume {
-	background-color: red;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%), url("https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 50%;
 }
 
-#resume button {
+#resume h2 {
+	color: #ffffff;
+}
+
+#resume a {
 	padding: 10px 20px;
-	font-size: 20px;
+	font-size: 15px;
 	border: 1px solid #ffffff;
-	background-color: #ffffff;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+#resume a:hover {
+	border: 1px solid #195a79;
+	color: #195a79;
 }
 
 footer {
