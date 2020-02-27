@@ -429,6 +429,24 @@ nav .container .row {
 	color: #000000;
 }
 
+	.modal-description ul {
+		display: flex;
+		flex-flow: row wrap;
+		align-items: center;
+		list-style: none;
+		padding: 0;
+	}
+
+		.modal-description ul li {
+			vertical-align: middle;
+			margin: 0 0.5em 0 0;
+			background-color: #ceced8;
+			border: solid 1px #ceced8;
+			border-radius: 15%;
+			padding: 0.5em 0.5em;
+			font-size: 0.8em;
+		}
+
 .modal-description a {
 	margin: 5px 10px 0 10px;
 	padding: 8px;
