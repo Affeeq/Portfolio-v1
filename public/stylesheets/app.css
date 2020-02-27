@@ -429,7 +429,7 @@ nav .container .row {
 	color: #000000;
 }
 
-.modal-description button {
+.modal-description a {
 	margin: 5px 10px 0 10px;
 	padding: 8px;
 	color: #195a79;
@@ -440,9 +440,10 @@ nav .container .row {
 	letter-spacing: 0.1em;
 	font-weight: 400;
 	transition: all 0.3s ease;
+	text-decoration: none;
 }
 
-.modal-description button:hover {
+.modal-description a:hover {
 	background-color: #195a79;
 	color: #ffffff;
 }
