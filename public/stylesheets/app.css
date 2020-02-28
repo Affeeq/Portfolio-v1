@@ -37,6 +37,7 @@ h1, h2, h3, h4, h5 {
 
 hr {
 	border-top: 1px solid #16a0e2;
+	width: 120px;
 }
 
 /*Animate on Scroll Points*/
@@ -208,10 +209,6 @@ nav .container .row {
 #intro {
 	overflow: auto;
 }
-
-/*#intro, #experience {
-	background-color: #ceced8;
-}*/
 
 #img-container {
 	height: 220px;
@@ -439,7 +436,7 @@ nav .container .row {
 
 		.modal-description ul li {
 			vertical-align: middle;
-			margin: 0 0.5em 0 0;
+			margin: 0.2em 0.5em 0 0;
 			background-color: #ceced8;
 			border: solid 1px #ceced8;
 			border-radius: 15%;
@@ -447,24 +444,28 @@ nav .container .row {
 			font-size: 0.8em;
 		}
 
-.modal-description a {
-	margin: 5px 10px 0 10px;
-	padding: 8px;
-	color: #195a79;
-	background-color: #ffffff;
-	box-shadow: none;
-	border: 2px solid #195a79;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-	font-weight: 400;
-	transition: all 0.3s ease;
-	text-decoration: none;
+.modal-link {
+	margin: 2em 0 0 0;
 }
 
-.modal-description a:hover {
-	background-color: #195a79;
-	color: #ffffff;
-}
+	.modal-link a {
+		margin: 5px 10px 0 10px;
+		padding: 8px;
+		color: #195a79;
+		background-color: #ffffff;
+		box-shadow: none;
+		border: 2px solid #195a79;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		font-weight: 400;
+		transition: all 0.3s ease;
+		text-decoration: none;
+	}
+
+	.modal-link a:hover {
+		background-color: #195a79;
+		color: #ffffff;
+	}
 
 .modal-img-container {
 	max-height: 360px;
