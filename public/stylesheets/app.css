@@ -22,14 +22,6 @@ a {
 	margin-left: 0;
 }
 
-.justified {
-	text-align: justify;
-	-ms-text-align-last: center;
-	-moz-text-align-last: center;
-	text-align-last: center;
-	font-size: 18px;
-}
-
 h1, h2, h3, h4, h5 {
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
