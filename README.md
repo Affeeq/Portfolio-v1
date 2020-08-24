@@ -18,7 +18,7 @@ Features: Navbar, Contact Form, Modals
 
 ![Focus](https://github.com/Affeeq/Portfolio-v1/blob/master/images/Screen%20Shot%202020-08-24%20at%203.14.38%20PM.png)
 
-![Experience](https://github.com/Affeeq/Portfolio-v1/blob/master/images/Screen%20Shot%202020-08-24%20at%203.14.38%20PM.png)
+![Experience](https://github.com/Affeeq/Portfolio-v1/blob/master/images/Screen%20Shot%202020-08-24%20at%203.14.45%20PM.png)
 
 ![Resume and Projects](https://github.com/Affeeq/Portfolio-v1/blob/master/images/Screen%20Shot%202020-08-24%20at%203.14.58%20PM.png)
 
