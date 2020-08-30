@@ -10,4 +10,16 @@ Back End: Node JS, Express JS
 
 Features: Navbar, Contact Form, Modals
 
-Dependencies: Animate CSS, Async, Body-Parser, Connect-flash, dotenv, ejs, express, express-session, nodemailer, waypoints
+## Pages
+
+![Landing](https://github.com/Affeeq/Portfolio-v1/blob/master/images/Screen%20Shot%202020-08-24%20at%203.14.12%20PM.png)
+
+![About](https://github.com/Affeeq/Portfolio-v1/blob/master/images/Screen%20Shot%202020-08-24%20at%203.14.28%20PM.png)
+
+![Focus](https://github.com/Affeeq/Portfolio-v1/blob/master/images/Screen%20Shot%202020-08-24%20at%203.14.38%20PM.png)
+
+![Experience](https://github.com/Affeeq/Portfolio-v1/blob/master/images/Screen%20Shot%202020-08-24%20at%203.14.45%20PM.png)
+
+![Resume and Projects](https://github.com/Affeeq/Portfolio-v1/blob/master/images/Screen%20Shot%202020-08-24%20at%203.14.58%20PM.png)
+
+![Contact Form and Footer](https://github.com/Affeeq/Portfolio-v1/blob/master/images/Screen%20Shot%202020-08-24%20at%203.15.04%20PM.png)
