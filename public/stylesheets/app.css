@@ -39,7 +39,6 @@ hr {
 .scroll-intro-img,
 .scroll-intro-content-1,
 .scroll-intro-content-2,
-.scroll-intro-content-3,
 .scroll-focus-content-1,
 .scroll-focus-content-2,
 .scroll-focus-content-3,
@@ -321,6 +320,10 @@ nav .container .row {
 
 #vue {
 	color: #41B883;
+}
+
+#react {
+	color: #61DBFB;
 }
 
 .projects {
