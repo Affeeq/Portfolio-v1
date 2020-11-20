@@ -1,14 +1,14 @@
 # Portfolio-v1
-Personal Portfolio
+[Personal Portfolio](http://affeeq-ismail-portfolio-v1.herokuapp.com/)
 
 About: Personal portfolio built from scratch
-
-Link: http://affeeq-ismail-portfolio-v1.herokuapp.com/
 
 Front end: HTML5, CSS3, Javascript, Bootstrap, jQuery
 Back End: Node JS, Express JS
 
 Features: Navbar, Contact Form, Modals
+
+Animations Packages: Animate.css, Waypoints
 
 ## Pages
 
